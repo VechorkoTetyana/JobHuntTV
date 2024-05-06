@@ -24,7 +24,7 @@
                                 </segments>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kld-0Q-wtW">
-                                <rect key="frame" x="0.0" y="90" width="393" height="762"/>
+                                <rect key="frame" x="20" y="90" width="357" height="762"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -32,11 +32,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="qw0-RG-sFi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ASD-GV-4C0"/>
-                            <constraint firstItem="kld-0Q-wtW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NbM-d1-7cR"/>
-                            <constraint firstItem="kld-0Q-wtW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SLl-Vh-cAz"/>
                             <constraint firstItem="kld-0Q-wtW" firstAttribute="top" secondItem="qw0-RG-sFi" secondAttribute="bottom" id="XhE-lo-Ctf"/>
+                            <constraint firstItem="kld-0Q-wtW" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-16" id="cG1-yT-TVD"/>
                             <constraint firstAttribute="bottom" secondItem="kld-0Q-wtW" secondAttribute="bottom" id="tyN-wW-65N"/>
                             <constraint firstItem="qw0-RG-sFi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="w1n-h2-Ubx"/>
+                            <constraint firstItem="kld-0Q-wtW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="y7g-hi-e4n"/>
                         </constraints>
                     </view>
                     <connections>
