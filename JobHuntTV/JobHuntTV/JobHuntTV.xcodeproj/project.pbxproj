@@ -13,6 +13,10 @@
 		B8C34EB02BD9104100450308 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8C34EAF2BD9104100450308 /* Base */; };
 		B8C34EB22BD9104200450308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8C34EB12BD9104200450308 /* Assets.xcassets */; };
 		B8C34EB52BD9104200450308 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B8C34EB42BD9104200450308 /* Base */; };
+		B8C34EDC2BDE96ED00450308 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C34EDB2BDE96ED00450308 /* Categories.swift */; };
+		B8C34EDF2BDEB9C500450308 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8C34EDE2BDEB9C500450308 /* ProductTableViewCell.xib */; };
+		B8C34EE12BDEBA0300450308 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C34EE02BDEBA0300450308 /* ProductTableViewCell.swift */; };
+		B8C34EE52BDFAB7600450308 /* ProductViewModelCompanyProposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C34EE42BDFAB7600450308 /* ProductViewModelCompanyProposition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B8C34EB12BD9104200450308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8C34EB42BD9104200450308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8C34EB62BD9104200450308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C34EDB2BDE96ED00450308 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B8C34EDE2BDEB9C500450308 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		B8C34EE02BDEBA0300450308 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		B8C34EE42BDFAB7600450308 /* ProductViewModelCompanyProposition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModelCompanyProposition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		B8C34EA72BD9104100450308 /* JobHuntTV */ = {
 			isa = PBXGroup;
 			children = (
+				B8C34EDD2BDEB98800450308 /* ProductCell */,
 				B8C34EA82BD9104100450308 /* AppDelegate.swift */,
 				B8C34EAA2BD9104100450308 /* SceneDelegate.swift */,
+				B8C34EE42BDFAB7600450308 /* ProductViewModelCompanyProposition.swift */,
 				B8C34EAC2BD9104100450308 /* ViewController.swift */,
 				B8C34EAE2BD9104100450308 /* Main.storyboard */,
 				B8C34EB12BD9104200450308 /* Assets.xcassets */,
 				B8C34EB32BD9104200450308 /* LaunchScreen.storyboard */,
 				B8C34EB62BD9104200450308 /* Info.plist */,
+				B8C34EDB2BDE96ED00450308 /* Categories.swift */,
 			);
 			path = JobHuntTV;
+			sourceTree = "<group>";
+		};
+		B8C34EDD2BDEB98800450308 /* ProductCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8C34EDE2BDEB9C500450308 /* ProductTableViewCell.xib */,
+				B8C34EE02BDEBA0300450308 /* ProductTableViewCell.swift */,
+			);
+			path = ProductCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C34EB22BD9104200450308 /* Assets.xcassets in Resources */,
+				B8C34EDF2BDEB9C500450308 /* ProductTableViewCell.xib in Resources */,
 				B8C34EB52BD9104200450308 /* Base in Resources */,
 				B8C34EB02BD9104100450308 /* Base in Resources */,
 			);
@@ -139,6 +160,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8C34EAD2BD9104100450308 /* ViewController.swift in Sources */,
+				B8C34EDC2BDE96ED00450308 /* Categories.swift in Sources */,
+				B8C34EE12BDEBA0300450308 /* ProductTableViewCell.swift in Sources */,
+				B8C34EE52BDFAB7600450308 /* ProductViewModelCompanyProposition.swift in Sources */,
 				B8C34EA92BD9104100450308 /* AppDelegate.swift in Sources */,
 				B8C34EAB2BD9104100450308 /* SceneDelegate.swift in Sources */,
 			);
