@@ -1,0 +1,38 @@
+[
+    {
+    "title": "UX Research",
+    "description": "Google LLC",
+    "imageName": "Google",
+    "activeEjectedCategory": "active"
+    },
+
+    {
+    "title": "Interaction Designer",
+    "description": "Microsoft Corporation",
+    "imageName": "Microsoft",
+    "activeEjectedCategory": "active"
+    },
+
+    {
+    "title": "Product Designer",
+    "description": "Adobe Inc.",
+    "imageName": "Adobe",
+    "activeEjectedCategory": "active"
+    },
+    
+    {
+    "title": "Design Manager",
+    "description": "Tesla, Inc.",
+    "imageName": "tesla",
+    "activeEjectedCategory": "ejected"
+    },
+
+    {
+    "title": "Product Designer",
+    "description": "Salesforce.com, Inc.",
+    "imageName": "cloud",
+    "activeEjectedCategory": "ejected"
+    }
+    
+]
+
